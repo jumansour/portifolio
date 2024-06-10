@@ -1,0 +1,133 @@
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    /* color: rgb(255, 27, 172); */
+    padding: auto;
+    margin-left: auto;
+}
+
+/* CSS DO MENU */
+
+#menu {
+    background-color: #73c159;
+    position: fixed;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    z-index: 2;
+}
+
+.logo{
+    position:absolute;
+    left: 5%;
+    color: pink;
+    top: 8px;
+}
+
+.contatos{
+    position:absolute;
+    left: 85%;
+    color: pink;
+    top: 8px;
+    
+}
+
+.imglogos{
+    width: 14%;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline-block;
+}
+
+#menu ul li a {
+    color: pink;
+}
+
+/* SITE */
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background-color: #73c159;
+    color: pink;
+}
+
+#nome {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 80px;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#sobremim {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: 95vh; 
+    background-color: pink;
+    color: rgb(21, 110, 52);
+
+}
+
+.j1 {
+    width: 220px;
+    margin-left: 25%;
+   
+
+}
+
+
+.texto {
+    margin-left: 7%;
+    font-size: large;
+    text-align: justify;
+
+}
+
+#projetos {
+    width: 100%;
+    height: 200vh;
+    background-color: #73c159;
+    color: pink;
+    text-align: center;
+    
+}
+
+.foto1{
+    width:250px;
+    position: absolute;
+    margin-left: -20%;
+    
+    
+}
+
+#fotografias {
+    width: 100%;
+    height: 100vh;
+    background-color: pink;
+    text-align: center;
+    color: #73c159;
+
+}
+
+.video2{
+    margin-left: 40%;
+    
+   
+}
+
+.list-group {
+    background-color: #73c159;
+    color: pink;
+}
